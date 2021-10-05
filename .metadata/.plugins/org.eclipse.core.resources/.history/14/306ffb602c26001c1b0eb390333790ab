@@ -1,0 +1,12 @@
+package com.praktek;
+
+public class Item {
+	private String name;
+	private Item() {
+		name = "Ipin";
+	}
+	public Item(String name) {
+		name = "Ipin";
+		System.out.println(this.name);
+	}
+}
